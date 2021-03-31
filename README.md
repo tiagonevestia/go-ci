@@ -49,7 +49,7 @@ Isso garante que a solicitação Pull Request não possa ser mergeada no reposit
   A --> B[on: push]
   B --> C[branches: -master]
   C --> D[runs-on: ubuntu]
-  D --> E[steps: users: action/run: npm run prod]
+  D --> E[steps: uses: action/run: npm run prod]
 ```
 
 ### Workflow
